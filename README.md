@@ -1,13 +1,21 @@
 # rosedust
 ## a pretty, desaturated pink theme to calm your heart
-
-## based on the palette from my personal website, rio.pink
-
-## contains the following themes:
+based on the palette from my personal website, rio.pink
+contains the following themes:
 
 ### gtk 2/3
 
-need to add gtk install instructions
+- Copy the rosedust-gtk folder into your `~/.themes/` or `~/.local/share/themes/` directory. 
+- Apply with your preferred desktop configuration tool. Most desktop environments provide their own tool.
+- You can also change to this theme manually by adding this to `~/.gtkrc-2.0` for GTK 2
+```
+gtk-theme-name = "rosedust-gtk"
+```
+or this to `$XDG_CONFIG_HOME/gtk-3.0/settings.ini` for GTK 3:
+```
+[Settings]
+gtk-theme-name = rosedust-gtk
+```
 
 ### firefox
 
@@ -133,14 +141,14 @@ Themes should be placed in "../share/btop/themes" relative to binary or "$HOME/.
 
 ## TO-DO
 
-### I need to define an official palette and tweak some of these themes to reflect it. No themes (except gtk) have been uploaded yet for this reason.
-### I need to add a screenshot/rice of this theme in use
-### I need to add gtk install instructions
-### I need to add the color config I use in i3.conf
-### I would like to theme the following applications, if I can figure out how:
+- Define an official palette and tweak some of these themes to reflect it, particularly joplin and kitty. These themes have not been uploaded yet for this reason.
+- Add a screenshot/rice of this theme in use
+- Add the color config I use in i3.conf
+### Theme the following applications, if I can figure out how:
 - vs code
 - signal desktop
 - bitwarden desktop
 - steam
+
 (basically all the other apps that I use every day. some of those might be tricky, so if you would like to help, let me know.)
 
