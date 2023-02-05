@@ -2,6 +2,10 @@
 ## a pretty, desaturated pink theme to calm your heart
 based on the palette from my personal website
 
+example screenshots:
+
+![rosedust_screenshot](https://user-images.githubusercontent.com/791713/216839816-94255980-4780-4387-a8eb-1fa83d03afd5.png)
+
 ## theme installation instructions
 
 ### gtk 2/3
@@ -143,7 +147,6 @@ Themes should be placed in "../share/btop/themes" relative to binary or "$HOME/.
 ## TO-DO
 
 - Define an official palette and tweak some of these themes to reflect it, particularly joplin and kitty. These themes have not been uploaded yet for this reason.
-- Add a screenshot/rice of this theme in use
 - Add the color config I use in i3.conf
 ### Theme the following applications, if I can figure out how:
 - vs code
