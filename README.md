@@ -1,7 +1,8 @@
 # rosedust
 ## a pretty, desaturated pink theme to calm your heart
-based on the palette from my personal website, rio.pink
-contains the following themes:
+based on the palette from my personal website
+
+## theme installation instructions
 
 ### gtk 2/3
 
